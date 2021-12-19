@@ -21,7 +21,7 @@ describe('Banking', () => {
 
         await expect( await browser.getUrl() ).to.equal('http://localhost:8080/bank/login?logout');
         
-        await browser.pause(5000);
+        //await browser.pause(5000);
     });
     
 });

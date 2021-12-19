@@ -57,7 +57,7 @@ describe('Banking', () => {
 
         await expect(await browser.getUrl()).to.equal('http://localhost:8080/bank/login?error');
         
-        await browser.pause(5000);
+        //await browser.pause(5000);
     });
 
     it('Debería pedir credenciales', async () => {
@@ -68,8 +68,8 @@ describe('Banking', () => {
         
         await expect(await browser.getUrl()).to.equal('http://localhost:8080/bank/login?error');
 
-        await browser.pause(5000);
+        //await browser.pause(5000);
     });
-
+    
 });
    
