@@ -1,0 +1,5 @@
+{
+  "error": "no such element",
+  "message": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//img[normalize-space() = \"user-menu dropdown-menu\"]\"}\n  (Session info: chrome=96.0.4664.110)",
+  "stacktrace": "Backtrace:\n\tOrdinal0 [0x002B6903+2517251]\n\tOrdinal0 [0x0024F8E1+2095329]\n\tOrdinal0 [0x00152848+1058888]\n\tOrdinal0 [0x0017D448+1233992]\n\tOrdinal0 [0x0017D63B+1234491]\n\tOrdinal0 [0x001A7812+1406994]\n\tOrdinal0 [0x0019650A+1336586]\n\tOrdinal0 [0x001A5BBF+1399743]\n\tOrdinal0 [0x0019639B+1336219]\n\tOrdinal0 [0x001727A7+1189799]\n\tOrdinal0 [0x00173609+1193481]\n\tGetHandleVerifier [0x00445904+1577972]\n\tGetHandleVerifier [0x004F0B97+2279047]\n\tGetHandleVerifier [0x00346D09+534521]\n\tGetHandleVerifier [0x00345DB9+530601]\n\tOrdinal0 [0x00254FF9+2117625]\n\tOrdinal0 [0x002598A8+2136232]\n\tOrdinal0 [0x002599E2+2136546]\n\tOrdinal0 [0x00263541+2176321]\n\tBaseThreadInitThunk [0x7575FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x778E7A9E+286]\n\tRtlGetAppContainerNamedObjectPath [0x778E7A6E+238]\n\t(No symbol) [0x00000000]\n"
+}
