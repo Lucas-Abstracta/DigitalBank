@@ -1,7 +1,7 @@
 //const { default: $ } = require("webdriverio/build/commands/browser/$");
 describe('Banking', () => {
 
-    it('Debería ingresar a la pagina con las credenciales', async () => {
+    it('Debería ingresar a la pagina con datos correctos', async () => {
         await browser.url('login');
 
         let userName = await $('#username');
@@ -22,7 +22,7 @@ describe('Banking', () => {
         //await browser.pause(5000);
     });
     
-    it('Debería recordar credenciales', async () => {
+    it('Debería recordar sesión iniciada', async () => {
         await browser.url('login');
 
         let userName = await $('#username');
@@ -60,7 +60,7 @@ describe('Banking', () => {
         //await browser.pause(5000);
     });
 
-    it('Debería pedir credenciales', async () => {
+    it('Debería mostrar mensaje de error al dejar los campos vacios', async () => {
         await browser.url('login');
 
         let enviar = await $('#submit');
@@ -70,6 +70,6 @@ describe('Banking', () => {
 
         //await browser.pause(5000);
     });
-    
+
 });
    

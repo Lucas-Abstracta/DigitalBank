@@ -23,5 +23,4 @@ describe('Banking', () => {
         
         //await browser.pause(5000);
     });
-    
 });
