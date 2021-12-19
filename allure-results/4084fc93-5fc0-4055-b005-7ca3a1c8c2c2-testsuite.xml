@@ -1,0 +1,243 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1639768886844' stop='1639768888341'>
+    <name>Banking</name>
+    <title>Banking</title>
+    <test-cases>
+        <test-case start='1639768886845' status='broken' stop='1639768888184'>
+            <name>Debería ingresar a la pagina con las credenciales</name>
+            <title>Debería ingresar a la pagina con las credenciales</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.110'/>
+            </parameters>
+            <steps>
+                <step start='1639768886850' status='passed' stop='1639768888091'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='fdc552cf-9423-4b1d-9423-0c9f3b510aa5-attachment.json' type='application/json' size='47'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1639768888095' status='broken' stop='1639768888184'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='f591d190-5df4-49a8-8262-aceb12d9b737-attachment.json' type='application/json' size='53'/>
+                    </attachments>
+                    <steps>
+                        <step start='1639768888158' status='broken' stop='1639768888184'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=96.0.4664.110)</message>
+                <stack-trace>Backtrace:
+                	Ordinal0 [0x00F86903+2517251]
+                	Ordinal0 [0x00F1F8E1+2095329]
+                	Ordinal0 [0x00E22848+1058888]
+                	Ordinal0 [0x00E0BF90+966544]
+                	Ordinal0 [0x00E68999+1345945]
+                	Ordinal0 [0x00E75342+1397570]
+                	Ordinal0 [0x00E6639B+1336219]
+                	Ordinal0 [0x00E427A7+1189799]
+                	Ordinal0 [0x00E43609+1193481]
+                	GetHandleVerifier [0x01115904+1577972]
+                	GetHandleVerifier [0x011C0B97+2279047]
+                	GetHandleVerifier [0x01016D09+534521]
+                	GetHandleVerifier [0x01015DB9+530601]
+                	Ordinal0 [0x00F24FF9+2117625]
+                	Ordinal0 [0x00F298A8+2136232]
+                	Ordinal0 [0x00F299E2+2136546]
+                	Ordinal0 [0x00F33541+2176321]
+                	BaseThreadInitThunk [0x75A3FA29+25]
+                	RtlGetAppContainerNamedObjectPath [0x77477A9E+286]
+                	RtlGetAppContainerNamedObjectPath [0x77477A6E+238]
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1639768888184' status='broken' stop='1639768888248'>
+            <name>No deberia ingresar con credenciales erroneas</name>
+            <title>No deberia ingresar con credenciales erroneas</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.110'/>
+            </parameters>
+            <steps>
+                <step start='1639768888186' status='broken' stop='1639768888248'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='17b2911e-b335-4f43-ae4b-ae4dcfb324ae-attachment.json' type='application/json' size='47'/>
+                    </attachments>
+                    <steps>
+                        <step start='1639768888221' status='broken' stop='1639768888248'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=96.0.4664.110)</message>
+                <stack-trace>Backtrace:
+                	Ordinal0 [0x00F86903+2517251]
+                	Ordinal0 [0x00F1F8E1+2095329]
+                	Ordinal0 [0x00E22848+1058888]
+                	Ordinal0 [0x00E0BF90+966544]
+                	Ordinal0 [0x00E68999+1345945]
+                	Ordinal0 [0x00E75342+1397570]
+                	Ordinal0 [0x00E6639B+1336219]
+                	Ordinal0 [0x00E427A7+1189799]
+                	Ordinal0 [0x00E43609+1193481]
+                	GetHandleVerifier [0x01115904+1577972]
+                	GetHandleVerifier [0x011C0B97+2279047]
+                	GetHandleVerifier [0x01016D09+534521]
+                	GetHandleVerifier [0x01015DB9+530601]
+                	Ordinal0 [0x00F24FF9+2117625]
+                	Ordinal0 [0x00F298A8+2136232]
+                	Ordinal0 [0x00F299E2+2136546]
+                	Ordinal0 [0x00F33541+2176321]
+                	BaseThreadInitThunk [0x75A3FA29+25]
+                	RtlGetAppContainerNamedObjectPath [0x77477A9E+286]
+                	RtlGetAppContainerNamedObjectPath [0x77477A6E+238]
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1639768888249' status='broken' stop='1639768888299'>
+            <name>No ingreso formato correo</name>
+            <title>No ingreso formato correo</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.110'/>
+            </parameters>
+            <steps>
+                <step start='1639768888250' status='broken' stop='1639768888299'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='9d560bb2-5b32-4690-8bcc-4ba63338a27e-attachment.json' type='application/json' size='47'/>
+                    </attachments>
+                    <steps>
+                        <step start='1639768888281' status='broken' stop='1639768888299'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=96.0.4664.110)</message>
+                <stack-trace>Backtrace:
+                	Ordinal0 [0x00F86903+2517251]
+                	Ordinal0 [0x00F1F8E1+2095329]
+                	Ordinal0 [0x00E22848+1058888]
+                	Ordinal0 [0x00E0BF90+966544]
+                	Ordinal0 [0x00E68999+1345945]
+                	Ordinal0 [0x00E75342+1397570]
+                	Ordinal0 [0x00E6639B+1336219]
+                	Ordinal0 [0x00E427A7+1189799]
+                	Ordinal0 [0x00E43609+1193481]
+                	GetHandleVerifier [0x01115904+1577972]
+                	GetHandleVerifier [0x011C0B97+2279047]
+                	GetHandleVerifier [0x01016D09+534521]
+                	GetHandleVerifier [0x01015DB9+530601]
+                	Ordinal0 [0x00F24FF9+2117625]
+                	Ordinal0 [0x00F298A8+2136232]
+                	Ordinal0 [0x00F299E2+2136546]
+                	Ordinal0 [0x00F33541+2176321]
+                	BaseThreadInitThunk [0x75A3FA29+25]
+                	RtlGetAppContainerNamedObjectPath [0x77477A9E+286]
+                	RtlGetAppContainerNamedObjectPath [0x77477A6E+238]
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1639768888299' status='broken' stop='1639768888340'>
+            <name>Debería pedir credenciales</name>
+            <title>Debería pedir credenciales</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.110'/>
+            </parameters>
+            <steps>
+                <step start='1639768888300' status='broken' stop='1639768888340'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='eba0c487-a602-4765-a032-4a5c8ab377c2-attachment.json' type='application/json' size='47'/>
+                    </attachments>
+                    <steps>
+                        <step start='1639768888322' status='broken' stop='1639768888340'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=96.0.4664.110)</message>
+                <stack-trace>Backtrace:
+                	Ordinal0 [0x00F86903+2517251]
+                	Ordinal0 [0x00F1F8E1+2095329]
+                	Ordinal0 [0x00E22848+1058888]
+                	Ordinal0 [0x00E0BF90+966544]
+                	Ordinal0 [0x00E68999+1345945]
+                	Ordinal0 [0x00E75342+1397570]
+                	Ordinal0 [0x00E6639B+1336219]
+                	Ordinal0 [0x00E427A7+1189799]
+                	Ordinal0 [0x00E43609+1193481]
+                	GetHandleVerifier [0x01115904+1577972]
+                	GetHandleVerifier [0x011C0B97+2279047]
+                	GetHandleVerifier [0x01016D09+534521]
+                	GetHandleVerifier [0x01015DB9+530601]
+                	Ordinal0 [0x00F24FF9+2117625]
+                	Ordinal0 [0x00F298A8+2136232]
+                	Ordinal0 [0x00F299E2+2136546]
+                	Ordinal0 [0x00F33541+2176321]
+                	BaseThreadInitThunk [0x75A3FA29+25]
+                	RtlGetAppContainerNamedObjectPath [0x77477A9E+286]
+                	RtlGetAppContainerNamedObjectPath [0x77477A6E+238]
+                </stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

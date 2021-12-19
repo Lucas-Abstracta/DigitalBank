@@ -1,0 +1,5 @@
+{
+  "error": "no such element",
+  "message": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"user-menu dropdown-menu show\"}\n  (Session info: chrome=96.0.4664.110)",
+  "stacktrace": "Backtrace:\n\tOrdinal0 [0x010B6903+2517251]\n\tOrdinal0 [0x0104F8E1+2095329]\n\tOrdinal0 [0x00F52848+1058888]\n\tOrdinal0 [0x00F7D448+1233992]\n\tOrdinal0 [0x00F7D63B+1234491]\n\tOrdinal0 [0x00FA7812+1406994]\n\tOrdinal0 [0x00F9650A+1336586]\n\tOrdinal0 [0x00FA5BBF+1399743]\n\tOrdinal0 [0x00F9639B+1336219]\n\tOrdinal0 [0x00F727A7+1189799]\n\tOrdinal0 [0x00F73609+1193481]\n\tGetHandleVerifier [0x01245904+1577972]\n\tGetHandleVerifier [0x012F0B97+2279047]\n\tGetHandleVerifier [0x01146D09+534521]\n\tGetHandleVerifier [0x01145DB9+530601]\n\tOrdinal0 [0x01054FF9+2117625]\n\tOrdinal0 [0x010598A8+2136232]\n\tOrdinal0 [0x010599E2+2136546]\n\tOrdinal0 [0x01063541+2176321]\n\tBaseThreadInitThunk [0x75A3FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x77477A9E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77477A6E+238]\n"
+}

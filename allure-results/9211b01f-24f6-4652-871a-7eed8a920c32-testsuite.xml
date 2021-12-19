@@ -1,0 +1,115 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1639789819905' stop='1639789821763'>
+    <name>Banking</name>
+    <title>Banking</title>
+    <test-cases>
+        <test-case start='1639789819905' status='broken' stop='1639789821763'>
+            <name>Debería ingresar con credenciales correctas</name>
+            <title>Debería ingresar con credenciales correctas</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.110'/>
+            </parameters>
+            <steps>
+                <step start='1639789819907' status='passed' stop='1639789820313'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='51bb291f-9fee-4d04-a296-7bcf084c8810-attachment.json' type='application/json' size='47'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1639789820316' status='passed' stop='1639789820339'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='7dda5b11-4a53-4e3e-b04b-86c11727ebe6-attachment.json' type='application/json' size='53'/>
+                        <attachment title='Response' source='8f6c09ed-6aa5-4856-b31a-c6fe26654913-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1639789820350' status='passed' stop='1639789820382'>
+                    <name>POST /session/:sessionId/element/ed214491-e768-4da7-aa95-100df6f5be00/clear</name>
+                    <title>POST /session/:sessionId/element/ed214491-e768-4da7-aa95-100df6f5be00/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1639789820386' status='passed' stop='1639789820441'>
+                    <name>POST /session/:sessionId/element/ed214491-e768-4da7-aa95-100df6f5be00/value</name>
+                    <title>POST /session/:sessionId/element/ed214491-e768-4da7-aa95-100df6f5be00/value</title>
+                    <attachments>
+                        <attachment title='Request' source='f8629798-ee01-4bb9-a864-b32eb005ae8c-attachment.json' type='application/json' size='30'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1639789820442' status='passed' stop='1639789820462'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='06c33b3c-131a-48d2-ad70-64c8057bca2e-attachment.json' type='application/json' size='53'/>
+                        <attachment title='Response' source='d752770a-3159-4951-9372-75a88da57cc2-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1639789820469' status='passed' stop='1639789820502'>
+                    <name>POST /session/:sessionId/element/375a2810-69f4-478b-a76a-6b7f787e0a92/clear</name>
+                    <title>POST /session/:sessionId/element/375a2810-69f4-478b-a76a-6b7f787e0a92/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1639789820502' status='passed' stop='1639789820555'>
+                    <name>POST /session/:sessionId/element/375a2810-69f4-478b-a76a-6b7f787e0a92/value</name>
+                    <title>POST /session/:sessionId/element/375a2810-69f4-478b-a76a-6b7f787e0a92/value</title>
+                    <attachments>
+                        <attachment title='Request' source='7890d1f5-6832-45dc-bb71-4d3cc495d536-attachment.json' type='application/json' size='24'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1639789820556' status='passed' stop='1639789820571'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='38fff745-55e6-458a-8198-34a7aff99652-attachment.json' type='application/json' size='51'/>
+                        <attachment title='Response' source='bc53f976-ef96-4fbc-bf4b-8172b7a73820-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1639789820575' status='passed' stop='1639789821504'>
+                    <name>POST /session/:sessionId/element/c5e63622-382b-4cb0-8327-7beb880dcdf9/click</name>
+                    <title>POST /session/:sessionId/element/c5e63622-382b-4cb0-8327-7beb880dcdf9/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1639789821508' status='passed' stop='1639789821757'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='e92fc192-d485-47ff-a580-a1f16f9d6160-attachment.png' type='image/png' size='133875'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Wrong parameters applied for getUrl
+                Usage: getUrl()
+                
+                For more info see https://w3c.github.io/webdriver/#dfn-get-current-url
+                </message>
+                <stack-trace>Error: Wrong parameters applied for getUrl
+                Usage: getUrl()
+                
+                For more info see https://w3c.github.io/webdriver/#dfn-get-current-url
+                
+                    at Browser.protocolCommand (C:\Users\lucas\Desktop\Proyectos\DigitalBank\node_modules\webdriver\build\command.js:32:19)
+                    at Browser.wrapCommandFn (C:\Users\lucas\Desktop\Proyectos\DigitalBank\node_modules\@wdio\utils\build\shim.js:131:38)
+                    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+                    at Context.&lt;anonymous> (C:\Users\lucas\Desktop\Proyectos\DigitalBank\tests\/log-in.test.js:14:26)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

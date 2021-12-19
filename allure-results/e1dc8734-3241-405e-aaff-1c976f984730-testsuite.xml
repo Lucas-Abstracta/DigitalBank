@@ -1,0 +1,90 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1639594186619' stop='1639594187386'>
+    <name>Banking</name>
+    <title>Banking</title>
+    <test-cases>
+        <test-case start='1639594186620' status='broken' stop='1639594187385'>
+            <name>Debería ingresar a la pagina</name>
+            <title>Debería ingresar a la pagina</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.93'/>
+            </parameters>
+            <steps>
+                <step start='1639594186621' status='passed' stop='1639594186961'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='008d313c-b1b2-4098-a0d9-f1aeeb447406-attachment.json' type='application/json' size='47'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1639594186965' status='passed' stop='1639594187001'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='f7fcde33-0029-483e-8a7d-076981eab3e2-attachment.json' type='application/json' size='53'/>
+                        <attachment title='Response' source='9bd9df7a-7593-4e0c-ab34-06212f77608a-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1639594187017' status='passed' stop='1639594187045'>
+                    <name>POST /session/:sessionId/element/f5210a2c-5195-4690-a65b-2eb137231a79/clear</name>
+                    <title>POST /session/:sessionId/element/f5210a2c-5195-4690-a65b-2eb137231a79/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1639594187048' status='passed' stop='1639594187104'>
+                    <name>POST /session/:sessionId/element/f5210a2c-5195-4690-a65b-2eb137231a79/value</name>
+                    <title>POST /session/:sessionId/element/f5210a2c-5195-4690-a65b-2eb137231a79/value</title>
+                    <attachments>
+                        <attachment title='Request' source='2da05808-9834-4f54-9f68-4ba1c9421490-attachment.json' type='application/json' size='30'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1639594187105' status='passed' stop='1639594187120'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='1a080be1-cfad-4589-bcbc-ad178956d43e-attachment.json' type='application/json' size='53'/>
+                        <attachment title='Response' source='00515225-7080-485d-834c-3b4934470b6b-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1639594187124' status='passed' stop='1639594187151'>
+                    <name>POST /session/:sessionId/element/2658bbf6-312c-47d3-a09b-1d0065af554a/clear</name>
+                    <title>POST /session/:sessionId/element/2658bbf6-312c-47d3-a09b-1d0065af554a/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1639594187151' status='passed' stop='1639594187197'>
+                    <name>POST /session/:sessionId/element/2658bbf6-312c-47d3-a09b-1d0065af554a/value</name>
+                    <title>POST /session/:sessionId/element/2658bbf6-312c-47d3-a09b-1d0065af554a/value</title>
+                    <attachments>
+                        <attachment title='Request' source='3253b9df-03ce-439a-bb6c-1add025e3514-attachment.json' type='application/json' size='24'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1639594187199' status='passed' stop='1639594187380'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='710293f5-04ca-4528-82df-46be60a7d9ab-attachment.png' type='image/png' size='34064'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>barraDeBusqueda is not defined</message>
+                <stack-trace>ReferenceError: barraDeBusqueda is not defined
+                    at Context.&lt;anonymous> (C:\Users\lucas\Desktop\Springs\Nanoexp1\ProyectoBanco\tests\/banking.test.js:13:9)
+                    at processTicksAndRejections (internal/process/task_queues.js:97:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

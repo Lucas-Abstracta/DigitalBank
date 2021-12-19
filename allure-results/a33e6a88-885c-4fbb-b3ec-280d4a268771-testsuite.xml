@@ -1,0 +1,53 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1639593669986' stop='1639593670658'>
+    <name>Banking</name>
+    <title>Banking</title>
+    <test-cases>
+        <test-case start='1639593669987' status='broken' stop='1639593670657'>
+            <name>Debería ingresar a la pagina</name>
+            <title>Debería ingresar a la pagina</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.93'/>
+            </parameters>
+            <steps>
+                <step start='1639593669990' status='passed' stop='1639593670440'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='5fc390dd-b303-41d1-a06e-ebe49c1734c8-attachment.json' type='application/json' size='47'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1639593670443' status='passed' stop='1639593670473'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='5899bfd3-1ab0-4405-8225-196897979971-attachment.json' type='application/json' size='63'/>
+                        <attachment title='Response' source='3fdc8ab2-6034-4ba0-84e2-df673ca8433f-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1639593670489' status='passed' stop='1639593670653'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='4d320568-9c59-472f-96f1-999e03cf5ab8-attachment.png' type='image/png' size='35291'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>barraDeBusqueda is not defined</message>
+                <stack-trace>ReferenceError: barraDeBusqueda is not defined
+                    at Context.&lt;anonymous> (C:\Users\lucas\Desktop\Springs\Nanoexp1\ProyectoBanco\tests\/banking.test.js:6:9)
+                    at processTicksAndRejections (internal/process/task_queues.js:97:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

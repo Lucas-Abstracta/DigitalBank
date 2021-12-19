@@ -1,0 +1,76 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1639593793007' stop='1639593793885'>
+    <name>Banking</name>
+    <title>Banking</title>
+    <test-cases>
+        <test-case start='1639593793008' status='broken' stop='1639593793884'>
+            <name>Debería ingresar a la pagina</name>
+            <title>Debería ingresar a la pagina</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.93'/>
+            </parameters>
+            <steps>
+                <step start='1639593793009' status='passed' stop='1639593793486'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='c4cd7d11-7cf6-4271-b721-ecf505b60719-attachment.json' type='application/json' size='47'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1639593793489' status='passed' stop='1639593793512'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='2610c47c-4e4e-45d6-a049-19f605d76231-attachment.json' type='application/json' size='53'/>
+                        <attachment title='Response' source='85bb8879-d3b3-4d6d-a1ec-3cb44395b95b-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1639593793528' status='passed' stop='1639593793560'>
+                    <name>POST /session/:sessionId/element/4280ab44-6930-44df-a087-702f38bf8dcb/clear</name>
+                    <title>POST /session/:sessionId/element/4280ab44-6930-44df-a087-702f38bf8dcb/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1639593793563' status='passed' stop='1639593793634'>
+                    <name>POST /session/:sessionId/element/4280ab44-6930-44df-a087-702f38bf8dcb/value</name>
+                    <title>POST /session/:sessionId/element/4280ab44-6930-44df-a087-702f38bf8dcb/value</title>
+                    <attachments>
+                        <attachment title='Request' source='754093f3-f5bc-42ec-b42d-aeca6c4c0d73-attachment.json' type='application/json' size='30'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1639593793634' status='passed' stop='1639593793656'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='5a8e26ce-96c9-4832-bcec-bee168f3ee3b-attachment.json' type='application/json' size='54'/>
+                        <attachment title='Response' source='bd25b01a-4524-4df6-80f7-1a44fc9fccb6-attachment.json' type='application/json' size='1028'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1639593793665' status='passed' stop='1639593793879'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='96c9beea-0cb9-484b-b71c-7d63da87ce4e-attachment.png' type='image/png' size='36289'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>pssWords is not defined</message>
+                <stack-trace>ReferenceError: pssWords is not defined
+                    at Context.&lt;anonymous> (C:\Users\lucas\Desktop\Springs\Nanoexp1\ProyectoBanco\tests\/banking.test.js:10:9)
+                    at processTicksAndRejections (internal/process/task_queues.js:97:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

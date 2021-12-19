@@ -1,0 +1,135 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1639768265472' stop='1639768325485'>
+    <name>Banking</name>
+    <title>Banking</title>
+    <test-cases>
+        <test-case start='1639768265473' status='broken' stop='1639768325484'>
+            <name>Debería hacer log-out</name>
+            <title>Debería hacer log-out</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.110'/>
+            </parameters>
+            <steps>
+                <step start='1639768265478' status='passed' stop='1639768266168'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='62512ccc-9957-4823-ae5c-facce9428b30-attachment.json' type='application/json' size='46'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1639768266173' status='passed' stop='1639768266219'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='edaf86e3-619f-48d5-97c2-429ac86a8a10-attachment.json' type='application/json' size='92'/>
+                        <attachment title='Response' source='1852f11b-d3d4-4457-9531-b5be39934b4f-attachment.json' type='application/json' size='1067'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1639768266234' status='passed' stop='1639768266259'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='5646ef62-9096-400d-a8b9-624fbecb7861-attachment.json' type='application/json' size='92'/>
+                        <attachment title='Response' source='f33f5c16-aa11-4301-9ced-ab581d985bdf-attachment.json' type='application/json' size='2'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1639768266740' status='passed' stop='1639768266758'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='aea85d4d-6bfe-40c9-a97b-9c3673721f48-attachment.json' type='application/json' size='92'/>
+                        <attachment title='Response' source='9abc0688-12d4-4a56-8873-144c3980d2fe-attachment.json' type='application/json' size='2'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1639768267233' status='passed' stop='1639768267250'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='a8d260ba-926d-4277-a4b3-d2a2e98658d6-attachment.json' type='application/json' size='92'/>
+                        <attachment title='Response' source='4ed47a24-9e65-48b6-80c0-997b5467844f-attachment.json' type='application/json' size='2'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1639768267748' status='passed' stop='1639768267765'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='38594d0e-6754-4775-befd-8ca4ac2856fa-attachment.json' type='application/json' size='92'/>
+                        <attachment title='Response' source='88c64c3c-ddea-45a4-ad7f-39a5058b2aa0-attachment.json' type='application/json' size='2'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1639768268241' status='passed' stop='1639768268261'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='cd45dd5a-660e-498e-97a3-f84824b7f6bf-attachment.json' type='application/json' size='92'/>
+                        <attachment title='Response' source='e512118e-e168-4774-beb6-f7023d638a7e-attachment.json' type='application/json' size='2'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1639768268749' status='passed' stop='1639768268789'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='2cbdfb53-73d3-4302-bb79-ecb94b039cfb-attachment.json' type='application/json' size='92'/>
+                        <attachment title='Response' source='1ebcaf55-47ae-46b7-bbff-a6079fcf71c9-attachment.json' type='application/json' size='2'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1639768269243' status='passed' stop='1639768269256'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='eb991fd4-3ff0-4573-b8cb-f255ada41580-attachment.json' type='application/json' size='92'/>
+                        <attachment title='Response' source='d8cef98b-ae20-485f-b342-94220ea3a976-attachment.json' type='application/json' size='2'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1639768269740' status='passed' stop='1639768269752'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='59855dab-79ea-4a63-a44e-6ed2d685d428-attachment.json' type='application/json' size='92'/>
+                        <attachment title='Response' source='9535a1eb-45b9-4359-a7c4-c3093ea78327-attachment.json' type='application/json' size='2'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1639768270237' status='broken' stop='1639768325483'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='22796555-c108-4a98-8442-b26dd609fa92-attachment.json' type='application/json' size='92'/>
+                    </attachments>
+                    <steps>
+                        <step start='1639768276238' status='broken' stop='1639768325483'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Timeout of 60000ms exceeded. The execution in the test "Banking Debería hacer log-out" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (C:\Users\lucas\Desktop\Proyectos\DigitalBank\tests\log-out.test.js)</message>
+                <stack-trace>Error: Timeout of 60000ms exceeded. The execution in the test "Banking Debería hacer log-out" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (C:\Users\lucas\Desktop\Proyectos\DigitalBank\tests\log-out.test.js)
+                    at createTimeoutError (C:\Users\lucas\Desktop\Proyectos\DigitalBank\node_modules\mocha\lib\errors.js:498:15)
+                    at Test.Runnable._timeoutError (C:\Users\lucas\Desktop\Proyectos\DigitalBank\node_modules\mocha\lib\runnable.js:431:10)
+                    at Timeout.&lt;anonymous> (C:\Users\lucas\Desktop\Proyectos\DigitalBank\node_modules\mocha\lib\runnable.js:246:24)
+                    at listOnTimeout (internal/timers.js:554:17)
+                    at processTimers (internal/timers.js:497:7)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
