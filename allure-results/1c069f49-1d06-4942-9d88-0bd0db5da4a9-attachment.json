@@ -1,8 +1,0 @@
-{
-  "script": "return (function newWindow(url, windowName, windowFeatures) {\n    window.open(url, windowName || '', windowFeatures || '');\n}).apply(null, arguments)",
-  "args": [
-    "http://localhost:8080/bank/",
-    "",
-    ""
-  ]
-}

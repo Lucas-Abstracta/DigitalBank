@@ -1,4 +1,0 @@
-{
-  "using": "xpath",
-  "value": ".//img[normalize-space() = \"\"user-avatar rounded-circle\"\"]"
-}
