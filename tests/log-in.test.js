@@ -1,74 +1,42 @@
-//const { default: $ } = require("webdriverio/build/commands/browser/$");
+import LoginPage from '../pageobjects/login.page'
+
 describe('Banking', () => {
 
-    it('Debería ingresar a la pagina con datos correctos', async () => {
-        await browser.url('login');
+    it(' Should access to homepage with correct username and password ', async () => {
+        await LoginPage.openWeb();
 
-        let userName = await $('#username');
-        await userName.setValue('jsmith@demo.io');
+        await LoginPage.logIn('jsmith@demo.io', 'Demo123!');
 
-        let pssWord = await $('#password');
-        await pssWord.setValue('Demo123!');
-
-        let submit = await $('#submit');
-        await submit.click();
-
-        let url = await browser.getUrl(); 
-        //await console.log(url);
-        //await console.log("salida");
-
-        await expect(url).to.equal('http://localhost:8080/bank/home');
-
-        //await browser.pause(5000);
+        await expect(await browser.getUrl()).to.equal('http://localhost:8080/bank/home');
     });
     
-    it('Debería recordar sesión iniciada', async () => {
-        await browser.url('login');
+    it(' Should redirect to homepage when accessing login page with a "remember me" option ', async () => {
+        await LoginPage.openWeb();
 
-        let userName = await $('#username');
-        await userName.setValue('jsmith@demo.io');
+        await (await $('#remember-me')).click();
 
-        let pssWord = await $('#password');
-        await pssWord.setValue('Demo123!');
-
-        let rememberMe = await $('#remember-me');
-        await rememberMe.click();
-
-        let submit = await $('#submit');
-        await submit.click();
+        await LoginPage.logIn('jsmith@demo.io', 'Demo123!');
 
         await browser.newWindow('http://localhost:8080/bank/');
-        await expect(await browser.getUrl()).to.equal('http://localhost:8080/bank/home');
 
-        //await browser.pause(5000);
+        await expect(await browser.getUrl()).to.contain('bank/home');
+
     });
 
-    it('No deberia ingresar con credenciales erroneas', async () => {
-        await browser.url('login');
+    it(' Shouldnt access with incorrect username and password ', async () => {
+        await LoginPage.openWeb();
+        await LoginPage.logIn('jsmith@demo.io', 'QWERTY123!');
+        await expect(await browser.getUrl()).to.contain('login?error');
 
-        let userName = await $('#username');
-        await userName.setValue('jsmith@demo.io');
-
-        let pssWord = await $('#password');
-        await pssWord.setValue('QWERTY123');
-
-        let enviar = await $('#submit');
-        await enviar.click();
-
-        await expect(await browser.getUrl()).to.equal('http://localhost:8080/bank/login?error');
-        
-        //await browser.pause(5000);
     });
 
-    it('Debería mostrar mensaje de error al dejar los campos vacios', async () => {
+    it('Should show an error message', async () => {
         await browser.url('login');
 
         let enviar = await $('#submit');
         await enviar.click();
         
-        await expect(await browser.getUrl()).to.equal('http://localhost:8080/bank/login?error');
-
-        //await browser.pause(5000);
+        await expect(await browser.getUrl()).to.contain('login?error');
     });
 
 });

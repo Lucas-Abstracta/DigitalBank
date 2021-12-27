@@ -1,26 +1,29 @@
+import LogoutPage from '../pageobjects/logout.page'
+import LoginPage from '../pageobjects/login.page'
+
+
 describe('Banking', () => {
-   
-    it('Debería hacer log-out', async () => {
-        await browser.url('login');
+    it('Should logout', async () => {
+        await LoginPage.openWeb();
 
-        let userName = await $('#username');
-        await userName.setValue('jsmith@demo.io');
+        await LoginPage.logIn('jsmith@demo.io', 'Demo123!');
 
-        let pssWord = await $('#password');
-        await pssWord.setValue('Demo123!');
+        await LogoutPage.logOut();
 
-        let submit = await $('#submit');
-        await submit.click();
+        await expect(await browser.getUrl()).to.contain('login?logout');
+    });
 
-        //------------------------------------------
-        let menu = await $('[class="user-avatar rounded-circle"]')
-        await menu.click();
+    it('Should show the login screen when going back to the previous page after loging out', async () => {
+        await LoginPage.openWeb();
 
-        let logout = await $('=Logout')
-        await logout.click();
+        await LoginPage.logIn('jsmith@demo.io', 'Demo123!');
 
-        await expect( await browser.getUrl() ).to.equal('http://localhost:8080/bank/login?logout');
-        
-        //await browser.pause(5000);
+        await LogoutPage.logOut();
+
+        await expect(await browser.getUrl()).to.contain('login?logout');
+
+        await browser.back();
+
+        await expect(await browser.getUrl()).to.contain('bank/login');
     });
 });
